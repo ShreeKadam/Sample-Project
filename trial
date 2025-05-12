@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set -x
+
+action=$1
+
+case $action in
+	listbranch) git branch ;;
+	*) echo"" ;;
+esac
